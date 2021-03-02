@@ -29,3 +29,20 @@
 	cursor: pointer;
 	background: #89cff0;
 }
+
+/* navbar styling below */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+.nav ul li {
+	margin: 0 2em;
+}
