@@ -15,8 +15,10 @@ function Advice() {
 	}, []);
 
 	return (
-		<div>
-			<h2 className="advice">{data}</h2>
+		<div className="advice">
+			<h3 className="advice-text">
+				<em>{data}</em>
+			</h3>
 			<button className="advice-button" onClick={getAdviceData}>
 				Click
 			</button>

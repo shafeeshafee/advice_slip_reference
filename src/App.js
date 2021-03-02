@@ -6,11 +6,14 @@ function App() {
 	return (
 		<div className="App">
 			<Nav />
-			<div className="header">
-				<h1>Advice App</h1>
-			</div>
 
-			<Advice />
+			<div className="content">
+				<div className="header">
+					<h1>STOP! Get advice first.</h1>
+				</div>
+
+				<Advice />
+			</div>
 		</div>
 	);
 }
