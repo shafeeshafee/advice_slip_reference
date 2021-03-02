@@ -5,9 +5,15 @@ function Nav() {
 		<div className="nav">
 			<h1>Logo</h1>
 			<ul>
-				<li>About</li>
-				<li>Team</li>
-				<li>Contact</li>
+				<a href="#">
+					<li>About</li>
+				</a>
+				<a href="#">
+					<li>Team</li>
+				</a>
+				<a href="#">
+					<li>Contact</li>
+				</a>
 			</ul>
 		</div>
 	);
