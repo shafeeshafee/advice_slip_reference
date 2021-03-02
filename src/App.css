@@ -1,3 +1,31 @@
 .App {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	background: red;
+	padding: 2em;
+	color: white;
+}
+
+.advice {
+	height: 30vh;
+	background: salmon;
+	display: flex;
+	align-items: center; /* vertically center */
+	justify-content: center; /* horizontally centered */
+}
+
+.advice-button {
+	padding: 15px 2rem;
+	border: none;
+	background: #1879a7;
+	color: white;
+}
+
+.advice-button:hover {
+	cursor: pointer;
+	background: #89cff0;
 }

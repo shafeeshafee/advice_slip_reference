@@ -4,7 +4,10 @@ import Advice from "./components/Advice";
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello from App</h1>
+			<div className="header">
+				<h1>STOP. Get advice first!</h1>
+			</div>
+
 			<Advice />
 		</div>
 	);

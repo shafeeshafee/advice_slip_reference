@@ -16,8 +16,10 @@ function Advice() {
 
 	return (
 		<div>
-			<h2>{data}</h2>
-			<button onClick={getAdviceData}>Click</button>
+			<h2 className="advice">{data}</h2>
+			<button className="advice-button" onClick={getAdviceData}>
+				Click
+			</button>
 		</div>
 	);
 }
